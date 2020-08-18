@@ -28,15 +28,16 @@ using namespace p1d;
 int main()
 {
 	//Create some data
-	vector< float > data;
+	vector< double > data;
 	data.push_back(2.0);   data.push_back(5.0);   data.push_back(7.0);
 	data.push_back(-12.0); data.push_back(-13.0); data.push_back(-7.0);
 	data.push_back(10.0);  data.push_back(18.0);  data.push_back(6.0);
 	data.push_back(8.0);   data.push_back(7.0);   data.push_back(4.0);
 
+	vector <float> data1 (data.begin(), data.end());
 	//Run persistence on data - this is the main call.
 	Persistence1D p;
-	p.RunPersistence(data);
+	p.RunPersistence(data1);
 
 	//Get all extrema with a persistence larger than 10.
 	vector< TPairedExtrema > Extrema;
