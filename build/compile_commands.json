@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/griv/ExtermaFinding/Persistence1D/build/src/examples/SimpleDataVector",
+  "command": "/usr/bin/g++-5     -g   -o CMakeFiles/SimpleDataVector.dir/SimpleDataVector.cpp.o -c /home/griv/ExtermaFinding/Persistence1D/src/examples/SimpleDataVector/SimpleDataVector.cpp",
+  "file": "/home/griv/ExtermaFinding/Persistence1D/src/examples/SimpleDataVector/SimpleDataVector.cpp"
+},
+{
+  "directory": "/home/griv/ExtermaFinding/Persistence1D/build/src/tests",
+  "command": "/usr/bin/g++-5     -g   -o CMakeFiles/tests.dir/tests.cpp.o -c /home/griv/ExtermaFinding/Persistence1D/src/tests/tests.cpp",
+  "file": "/home/griv/ExtermaFinding/Persistence1D/src/tests/tests.cpp"
+}
+]

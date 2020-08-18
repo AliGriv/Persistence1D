@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/griv/ExtermaFinding/Persistence1D/src/examples/SimpleDataVector/SimpleDataVector.cpp
+../../persistence1d/persistence1d.hpp
+/home/griv/ExtermaFinding/Persistence1D/src/persistence1d/persistence1d.hpp
+
+/home/griv/ExtermaFinding/Persistence1D/src/persistence1d/persistence1d.hpp
+assert.h
+-
+algorithm
+-
+iostream
+-
+iterator
+-
+vector
+-
+
